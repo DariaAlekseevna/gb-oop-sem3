@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RuGame extends AbstractGame{
+
+    /**
+     * @return - русский алфавит (список символов от а до я)
+     */
     @Override
     List<String> generateCharList() {
         List<String> charList = new ArrayList<>();
